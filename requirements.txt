@@ -1,0 +1,37 @@
+# --- Web & API Framework ---
+fastapi>=0.110.0
+uvicorn[standard]>=0.28.0
+gradio>=4.20.0
+pydantic>=2.6.0
+python-multipart>=0.0.9
+
+# --- Orchestration & State Machine ---
+langgraph>=0.2.0
+langchain-core>=0.2.0
+langchain-community>=0.2.0
+
+# --- LLM Providers & Inference ---
+groq>=0.9.0
+langchain-groq>=0.1.0
+
+# --- SQL AST Parsing & Verification ---
+sqlglot>=23.0.0
+
+# --- RAG & Vector Database ---
+qdrant-client>=1.8.0
+fastembed>=0.2.0
+sentence-transformers>=2.5.0
+
+# --- Database Drivers & Connection ---
+psycopg2-binary>=2.9.9
+asyncpg>=0.29.0
+sqlalchemy>=2.0.0
+
+# --- Semantic Layer Client ---
+cube-client>=0.1.0
+
+# --- Data Processing & Utilities ---
+pandas>=2.2.0
+numpy>=1.26.0
+python-dotenv>=1.0.1
+httpx>=0.27.0

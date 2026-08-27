@@ -13,7 +13,7 @@ class Settings(BaseSettings):
     POSTRES_PASSWORD: str = Field(..., alias="POSTRES_PASSWORD")
 
     DB_QUERY_TIMEOUT_SECOND: int = 5
-    DB_MAX_ROW_LIMIT: str = 500
+    DB_MAX_ROW_LIMIT: int = 500
 
     GROQ_API_KEY: str = "localhost"
     QDRANT_HOST: str = "localhost"
